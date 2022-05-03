@@ -9,12 +9,12 @@ A checkbox-backed, draggable, swipeable and clickable switch that can be used as
 
 ### Features
 
-☑️ Works with both checkbox and radio inputs.
-☑️ Works with disabled inputs.
-☑️ Swipeable with mouse or touch.
-☑️ Position text labels before or after.
-☑️ Built in colour themes.
-☑️ Built in scales (small, default, large);
+☑️ Works with both checkbox and radio inputs.  
+☑️ Works with disabled inputs.  
+☑️ Swipeable with mouse or touch.  
+☑️ Position text labels before or after.  
+☑️ Built in colour themes.  
+☑️ Built in scales (small, default, large).  
 
 ### Usage
 
