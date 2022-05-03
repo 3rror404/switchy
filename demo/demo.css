@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica, Arial;
+  color: #666;
+  background: #FAFAFA;
+  text-align: center;
+  font-weight: 100;
+  padding: 30px;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+.divider {
+  display: block;
+  width: 150px;
+  height: 1px;
+  background: #dad9d9;
+  margin: 30px auto;
+}
+
+.align-the-things {
+  width: 150px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.body {
+  margin-bottom: 30px;
+}
+
+small {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=demo.css.map */
