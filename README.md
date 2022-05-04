@@ -1,9 +1,9 @@
 # Switchy
 ---
 
-### Realistic iOS Style Switches
+### A tiny library for creating realistic, iOS style switches
 
-A checkbox-backed, draggable, swipeable and clickable switch that can be used as a form element.
+Checkbox-backed, draggable, swipeable and clickable switch that can be used as a form element.
 
 👉 [Demo](http://3rror404.github.io/switchy/demo)
 
@@ -27,3 +27,25 @@ A checkbox-backed, draggable, swipeable and clickable switch that can be used as
 ```html
 <script src="switchy.min.js"></script>
 ```
+
+#### 3. Add HTML
+```html
+<label class="switchy">
+    <input type="checkbox">
+    Text after
+</label>
+
+<label class="switchy">
+    Text before
+    <input type="checkbox">
+</label>
+
+<label class="switchy">
+    <input type="checkbox" checked>
+    A checked switch
+</label>
+````
+
+#### 4. Output
+
+<img src="../demo/example-switches.png" alt="Example switches">

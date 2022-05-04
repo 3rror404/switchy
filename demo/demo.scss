@@ -8,7 +8,11 @@ body {
   }
   
   h1 {
-    font-weight: 100;
+    font-weight: 700;
+  }
+
+  .lead {
+    font-size: 1.4rem;
   }
   
   .divider {
@@ -31,4 +35,32 @@ body {
   
   small {
     opacity: .8;
+  }
+
+  .btn-github {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    box-shadow: 0px 36.6255px 28.3015px rgb(27 22 83 / 2%), 0px 21.6423px 16.6479px rgb(27 22 83 / 2%), 0px 11.6536px 8.32397px rgb(27 22 83 / 2%), 0px 4.99438px 3.32959px rgb(27 22 83 / 4%), 0px 0px 0px 1.66479px rgb(27 22 83 / 3%);
+    transition: all .2s ease;
+
+    img {
+      height: 40px;
+      margin-right: .5rem;
+    }
+
+    &:hover {
+      border-color: rgb(27 22 83 / 25%);
+      box-shadow: 0px 16.6255px 8.3015px rgb(27 22 83 / 2%), 0px 11.6423px 6.6479px rgb(27 22 83 / 2%), 0px 1.6536px 4.32397px rgb(27 22 83 / 2%), 0px 4.99438px 3.32959px rgb(27 22 83 / 4%), 0px 0px 0px 1.66479px rgb(27 22 83 / 3%);
+    }
+  }
+
+  .shadow {
+    box-shadow: 0px 36.6255px 28.3015px rgb(27 22 83 / 2%), 0px 21.6423px 16.6479px rgb(27 22 83 / 2%), 0px 11.6536px 8.32397px rgb(27 22 83 / 2%), 0px 4.99438px 3.32959px rgb(27 22 83 / 4%), 0px 0px 0px 1.66479px rgb(27 22 83 / 3%);
   }

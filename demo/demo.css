@@ -8,7 +8,11 @@ body {
 }
 
 h1 {
-  font-weight: 100;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 1.4rem;
 }
 
 .divider {
@@ -31,6 +35,32 @@ h1 {
 
 small {
   opacity: 0.8;
+}
+
+.btn-github {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  box-shadow: 0px 36.6255px 28.3015px rgba(27, 22, 83, 0.02), 0px 21.6423px 16.6479px rgba(27, 22, 83, 0.02), 0px 11.6536px 8.32397px rgba(27, 22, 83, 0.02), 0px 4.99438px 3.32959px rgba(27, 22, 83, 0.04), 0px 0px 0px 1.66479px rgba(27, 22, 83, 0.03);
+  transition: all 0.2s ease;
+}
+.btn-github img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+.btn-github:hover {
+  border-color: rgba(27, 22, 83, 0.25);
+  box-shadow: 0px 16.6255px 8.3015px rgba(27, 22, 83, 0.02), 0px 11.6423px 6.6479px rgba(27, 22, 83, 0.02), 0px 1.6536px 4.32397px rgba(27, 22, 83, 0.02), 0px 4.99438px 3.32959px rgba(27, 22, 83, 0.04), 0px 0px 0px 1.66479px rgba(27, 22, 83, 0.03);
+}
+
+.shadow {
+  box-shadow: 0px 36.6255px 28.3015px rgba(27, 22, 83, 0.02), 0px 21.6423px 16.6479px rgba(27, 22, 83, 0.02), 0px 11.6536px 8.32397px rgba(27, 22, 83, 0.02), 0px 4.99438px 3.32959px rgba(27, 22, 83, 0.04), 0px 0px 0px 1.66479px rgba(27, 22, 83, 0.03);
 }
 
 /*# sourceMappingURL=demo.css.map */
