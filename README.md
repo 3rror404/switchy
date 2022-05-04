@@ -48,4 +48,4 @@ Checkbox-backed, draggable, swipeable and clickable switch that can be used as a
 
 #### 4. Output
 
-<img src="../demo/example-switches.png" alt="Example switches">
+<img src="/3rror404/switchy/blob/main/demo/example-switches.png?raw=true" alt="Example switches">
