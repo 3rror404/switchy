@@ -5,11 +5,7 @@
     let startY;
     let ghostNode = {};
     
-    console.log(switches);
-    
     switches.forEach(labelEl => {
-        console.log(labelEl);
-    
         const inputEl = labelEl.querySelector('input');
     
         const switchEl = document.createElement('span');
@@ -73,28 +69,32 @@
       evt = evt || window.event;
     
       evt.preventDefault();
-    
-      const x = evt.pageX,
-            y = evt.pageY;
-    
-      const switchRect = evt.currentTarget.getBoundingClientRect();
-      const checkbox = evt.currentTarget.previousElementSibling;
-      
-      if (checkbox.disabled) {
-        return;
-      }
-    
-      if (checkbox.checked && x <= startX - 10) {
-        checkbox.checked = false;
-      } else if (!checkbox.checked && x >= startX + 10) {
-        checkbox.checked = true;
-      }
     }
     
     function onDragEnd(evt) { 
       // ## Remove ghostNode from DOM.
       if (evt.type == 'dragend') {
         ghostNode.parentNode.removeChild(ghostNode);
+
+        const x = evt.pageX,
+            y = evt.pageY;
+    
+        const checkbox = evt.currentTarget.previousElementSibling;
+        
+        if (checkbox.disabled) {
+            return;
+        }
+        
+        if (checkbox.checked && x <= startX - 10) {
+            checkbox.checked = false;
+        } else if (!checkbox.checked && x >= startX + 10) {
+            checkbox.checked = true;
+        } else {
+            return;
+        }
+
+        const event = new Event('change');
+        checkbox.dispatchEvent(event);
       }
     
       return;
